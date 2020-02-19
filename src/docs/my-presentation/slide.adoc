@@ -1,0 +1,15 @@
+= Example Manual
+xxx yyy <x.y@htl-leonding.ac.at>
+2020-02-19
+:revnumber: {project-version}
+:example-caption!:
+ifndef::imagesdir[:imagesdir: images]
+ifndef::sourcedir[:sourcedir: ../../main/java]
+
+== Introduction
+
+[%step]
+* This is a user manual for an example project.
+* This project does something.
+* We just haven't decided what that is yet.
+
