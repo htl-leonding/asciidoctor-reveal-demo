@@ -11,3 +11,6 @@ Convert the AsciiDoc to HTML slides by invoking the `process-resources` goal (co
  $ mvn
 
 Open the file _target/generated-slides/slides.html_ in your browser to see the generated HTML file containing the reveal.js presentation deck.
+
+see also
+https://bcouetil.gitlab.io/academy/BP-asciidoc.html

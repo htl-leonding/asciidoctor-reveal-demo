@@ -13,3 +13,14 @@ ifndef::sourcedir[:sourcedir: ../../main/java]
 * This project does something.
 * We just haven't decided what that is yet.
 
+== Is plantuml working?
+
+[plantuml,png]
+----
+@startuml
+class Person {
+  String: name
+  LocalDate: dob
+}
+@enduml
+----

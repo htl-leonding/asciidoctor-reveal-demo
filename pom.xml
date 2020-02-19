@@ -114,9 +114,17 @@
                         <artifactId>asciidoctorj</artifactId>
                         <version>${asciidoctorj.version}</version>
                     </dependency>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj-diagram</artifactId>
+                        <version>2.0.1</version>
+                    </dependency>
                 </dependencies>
                 <configuration>
                     <sourceDirectory>src/docs/my-presentation</sourceDirectory>
+                    <requires>
+                        <require>asciidoctor-diagram</require>
+                    </requires>
                 </configuration>
                 <executions>
                     <execution>
@@ -130,6 +138,7 @@
                             <gemPath>${project.build.directory}/gems</gemPath>
                             <requires>
                                 <require>asciidoctor-revealjs</require>
+                                <require>asciidoctor-diagram</require>
                             </requires>
                             <outputDirectory>${project.slides.directory}</outputDirectory>
                             <backend>revealjs</backend>
