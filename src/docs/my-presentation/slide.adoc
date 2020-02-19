@@ -6,13 +6,6 @@ xxx yyy <x.y@htl-leonding.ac.at>
 ifndef::imagesdir[:imagesdir: images]
 ifndef::sourcedir[:sourcedir: ../../main/java]
 
-== Introduction
-
-[%step]
-* This is a user manual for an example project.
-* This project does something.
-* We just haven't decided what that is yet.
-
 == Is plantuml working?
 
 [plantuml,png]
@@ -22,5 +15,16 @@ class Person {
   String: name
   LocalDate: dob
 }
+
+A --> B
+
 @enduml
 ----
+
+== Introduction
+
+[%step]
+* This is a user manual for an example project.
+* This project does something.
+* We just haven't decided what that is yet.
+
